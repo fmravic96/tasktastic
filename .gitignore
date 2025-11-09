@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+.eggs/
+*.egg
+*.env
+.venv/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# Alembic
+alembic/versions/
+
+# SQLite
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test & Coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env files
+.env
+.env.*
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# FastAPI
+instance/
+
+# Misc
+*.bak
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# Docker
+**/tmp/
+
+# Ignore alembic generated migration scripts (not the env.py or script.py.mako)
+!alembic/env.py
+!alembic/script.py.mako
