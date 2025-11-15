@@ -6,9 +6,17 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "django>=5.2.8",
+    "django-extensions>=4.1",
     "django-ninja>=1.4.5",
     "django-ninja-extra>=0.30.2",
     "django-ninja-jwt>=5.4.0",
     "dotenv>=0.9.9",
+    "factory-boy>=3.3.3",
+    "ninja-schema>=0.14.3",
     "pytest>=8.4.2",
+    "pytest-django>=4.11.1",
 ]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "tasktastic.settings"
+python_files = "test_*.py"

@@ -13,11 +13,9 @@ __pycache__/
 venv/
 ENV/
 
-# VS Code
-.vscode/
-
-# Alembic
-alembic/versions/
+# VS Code and JetBrains IDEs
+**/.idea/
+**/.vscode/
 
 # SQLite
 *.sqlite3
@@ -61,7 +59,3 @@ node_modules/
 
 # Docker
 **/tmp/
-
-# Ignore alembic generated migration scripts (not the env.py or script.py.mako)
-!alembic/env.py
-!alembic/script.py.mako

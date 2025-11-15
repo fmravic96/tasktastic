@@ -39,6 +39,7 @@ INSTALLED_APPS = [
 
     'ninja_extra',
     'ninja_jwt',
+    'django_extensions',
 
     'tasktastic.task',
     'tasktastic.user',
